@@ -4,17 +4,136 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
 #top_nav {
+  background-color: white;
   padding-top: 0.5rem;
   width: 100%;
   margin: 0;
   position: fixed;
   text-align: center;
+  font-weight: bold;
   ul {
     display: flex;
     justify-content: center;
   }
   li {
     float: left;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
   }
 }
+#www {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#top {
+  padding-top: 3rem;
+  .texts {
+    float: left;
+  }
+  .logo {
+    float: right;
+    img {
+      width: 250px;
+    }
+  }
+  .tkd {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    color: $blue_dark;
+    display: block;
+    font-weight: bolder;
+    padding-top: 2rem;
+  }
+  .uks {
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: $blue;
+    display: block;
+    u {
+      border-bottom: 1px solid $blue;
+      text-decoration: none;
+    }
+  }
+}
+
+#top2 {
+  width: 100%;
+  clear: both;
+  .btn {
+    text-align: center;
+  }
+  .boxes_left {
+    float: right;
+  }
+  .box {
+    width: 120px;
+    height: 120px;
+    background-color: $grey;
+    display: inline-block;
+    margin: 1.5rem;
+  }
+  .left {
+    width: 45%;
+    float: left;
+    h2 {
+      color: $red2;
+      float: right;
+      padding-right: 1.5rem;
+    }
+    p {
+      clear: both;
+      text-align: center;
+    }
+  }
+  .middle {
+    width: 10%;
+    float: left;
+    img {
+      width: 100px;
+      display: block;
+      margin: auto;
+    }
+  }
+  .right {
+    width: 45%;
+    float: left;
+    h2 {
+      color: $red2;
+      padding-left: 1.5rem;
+    }
+    p {
+      padding: 0 1.5rem;
+      height: 100px;
+    }
+  }
+}
+
+#treningi {
+  h2 {
+    color: $red2;
+    font-weight: bold;
+  }
+  p {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+  }
+  .benefits {
+    text-align: center;
+    img {
+      margin: 2rem;
+      width: 50%;
+    }
+  }
+
+  h2.info {
+    padding-top: 1rem;
+    color: $grey;
+    font-weight: bold;
+    small {
+      color: $blue;
+    }
+  }
+}
+.center {text-align: center;}
+.clear {clear:both}

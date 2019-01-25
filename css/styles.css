@@ -16,8 +16,7 @@ hr {
   border-top: 0.5rem dotted #A3A3A3;
   border-bottom: 0;
   width: 5%;
-  margin: 2rem auto;
-  opacity: .5; }
+  margin: 4rem auto; }
 
 ul {
   list-style-type: none;
@@ -25,11 +24,13 @@ ul {
   padding: 0; }
 
 #top_nav {
+  background-color: white;
   padding-top: 0.5rem;
   width: 100%;
   margin: 0;
   position: fixed;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
   #top_nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -39,4 +40,100 @@ ul {
     justify-content: center; }
   #top_nav li {
     float: left;
-    padding-left: 1.5rem; }
+    padding-left: 2rem; }
+
+#www {
+  width: 80%;
+  margin: 0 auto; }
+
+#top {
+  padding-top: 3rem; }
+  #top .texts {
+    float: left; }
+  #top .logo {
+    float: right; }
+    #top .logo img {
+      width: 250px; }
+  #top .tkd {
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    color: #0B47B2;
+    display: block;
+    font-weight: bolder;
+    padding-top: 2rem; }
+  #top .uks {
+    font-family: Montserrat;
+    font-size: 2rem;
+    color: #1F70FF;
+    display: block; }
+    #top .uks u {
+      border-bottom: 1px solid #1F70FF;
+      text-decoration: none; }
+
+#top2 {
+  width: 100%;
+  clear: both; }
+  #top2 .btn {
+    text-align: center; }
+  #top2 .boxes_left {
+    float: right; }
+  #top2 .box {
+    width: 120px;
+    height: 120px;
+    background-color: #A3A3A3;
+    display: inline-block;
+    margin: 1.5rem; }
+  #top2 .left {
+    width: 45%;
+    float: left; }
+    #top2 .left h2 {
+      color: #B71C1C;
+      float: right;
+      padding-right: 1.5rem; }
+    #top2 .left p {
+      clear: both;
+      text-align: center; }
+  #top2 .middle {
+    width: 10%;
+    float: left; }
+    #top2 .middle img {
+      width: 100px;
+      display: block;
+      margin: auto; }
+  #top2 .right {
+    width: 45%;
+    float: left; }
+    #top2 .right h2 {
+      color: #B71C1C;
+      padding-left: 1.5rem; }
+    #top2 .right p {
+      padding: 0 1.5rem;
+      height: 100px; }
+
+#treningi h2 {
+  color: #B71C1C;
+  font-weight: bold; }
+
+#treningi p {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0; }
+
+#treningi .benefits {
+  text-align: center; }
+  #treningi .benefits img {
+    margin: 2rem;
+    width: 50%; }
+
+#treningi h2.info {
+  padding-top: 1rem;
+  color: #A3A3A3;
+  font-weight: bold; }
+  #treningi h2.info small {
+    color: #1F70FF; }
+
+.center {
+  text-align: center; }
+
+.clear {
+  clear: both; }
