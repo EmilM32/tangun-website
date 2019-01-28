@@ -158,9 +158,40 @@
   }
 }
 
+#kontakt {
+  h2 {
+    color: $red2;
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    small {
+      color: $grey;
+    }
+  }
+  .card {
+    width: 300px;
+    float: left;
+    margin: 1rem;
+  }
+}
+
 #map {
   height: 300px;
   width: 100%;
+}
+
+footer {
+  background-color: black;
+  border-top: 4px solid $grey;
+  p {
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    margin: 0;
+  }
 }
 .center {text-align: center;}
 .clear {clear:both}
