@@ -128,12 +128,39 @@
 
   h2.info {
     padding-top: 1rem;
+    padding-left: 1em;
     color: $grey;
     font-weight: bold;
     small {
       color: $blue;
     }
   }
+  h2.info2 {
+    padding-top: 3rem;
+    padding-right: 1rem;
+    color: $grey;
+    font-weight: bold;
+    text-align: right;
+    small {
+      color: $red1;
+    }
+  }
+
+  table.center {
+    font-size: 1.5rem;
+    font-weight: bold;
+    .blua {
+      color: $blue_dark;
+    }
+    .griza {
+      color: $grey;
+    }
+  }
+}
+
+#map {
+  height: 300px;
+  width: 100%;
 }
 .center {text-align: center;}
 .clear {clear:both}

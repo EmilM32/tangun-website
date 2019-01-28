@@ -127,10 +127,32 @@ ul {
 
 #treningi h2.info {
   padding-top: 1rem;
+  padding-left: 1em;
   color: #A3A3A3;
   font-weight: bold; }
   #treningi h2.info small {
     color: #1F70FF; }
+
+#treningi h2.info2 {
+  padding-top: 3rem;
+  padding-right: 1rem;
+  color: #A3A3A3;
+  font-weight: bold;
+  text-align: right; }
+  #treningi h2.info2 small {
+    color: #DC3545; }
+
+#treningi table.center {
+  font-size: 1.5rem;
+  font-weight: bold; }
+  #treningi table.center .blua {
+    color: #0B47B2; }
+  #treningi table.center .griza {
+    color: #A3A3A3; }
+
+#map {
+  height: 300px;
+  width: 100%; }
 
 .center {
   text-align: center; }
