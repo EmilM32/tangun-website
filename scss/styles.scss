@@ -202,3 +202,32 @@ footer {
 }
 .center {text-align: center;}
 .clear {clear:both}
+
+//BAZA WIEDZY
+#left-nav {
+  background-color: $dark;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  color: white;
+  li {
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+  }
+  button {
+    bottom: 1rem;
+    position: fixed;
+    width: 300px;
+  }
+}
+
+#content {
+  margin: 0 2rem 1rem 350px;
+}
