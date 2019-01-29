@@ -1,5 +1,7 @@
 @import 'variables';
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0 auto;
   background-color: white;
@@ -7,6 +9,7 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
   &:hover {
     text-decoration: none;
   }
@@ -20,7 +23,7 @@ hr {
   border-top: .5rem dotted $grey;
   border-bottom: 0;
   width: 5%;
-  margin: 4rem auto;
+  margin: 5rem auto;
 }
 
 ul {

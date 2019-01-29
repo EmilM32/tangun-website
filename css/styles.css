@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto");
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0 auto;
   background-color: white;
   font-family: 'Roboto', sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
   a:hover {
     text-decoration: none; }
 
@@ -16,7 +20,7 @@ hr {
   border-top: 0.5rem dotted #A3A3A3;
   border-bottom: 0;
   width: 5%;
-  margin: 4rem auto; }
+  margin: 5rem auto; }
 
 ul {
   list-style-type: none;
@@ -112,7 +116,8 @@ ul {
 
 #treningi h2 {
   color: #B71C1C;
-  font-weight: bold; }
+  font-weight: bold;
+  padding-top: 2rem; }
 
 #treningi p {
   width: 90%;
@@ -165,6 +170,8 @@ ul {
   width: 300px;
   float: left;
   margin: 1rem; }
+  #kontakt .card a {
+    color: #0B47B2; }
 
 #map {
   height: 300px;
@@ -178,6 +185,8 @@ footer {
     text-align: center;
     padding-top: 5px;
     margin: 0; }
+  footer a {
+    color: #A3A3A3; }
 
 .center {
   text-align: center; }

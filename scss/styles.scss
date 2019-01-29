@@ -112,6 +112,7 @@
   h2 {
     color: $red2;
     font-weight: bold;
+    padding-top: 2rem;
   }
   p {
     width: 90%;
@@ -175,6 +176,9 @@
     width: 300px;
     float: left;
     margin: 1rem;
+    a {
+      color: $blue_dark;
+    }
   }
 }
 
@@ -191,6 +195,9 @@ footer {
     text-align: center;
     padding-top: 5px;
     margin: 0;
+  }
+  a {
+    color: $grey;
   }
 }
 .center {text-align: center;}
