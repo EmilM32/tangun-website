@@ -20,13 +20,8 @@
     padding-left: 2rem;
   }
 }
-#www {
-  width: 80%;
-  margin: 0 auto;
-}
 
 #top {
-  padding-top: 3rem;
   .texts {
     float: left;
   }
@@ -34,6 +29,9 @@
     float: right;
     img {
       width: 250px;
+      @include mQ(1200px) {
+        width: 150px;
+      }
     }
   }
   .tkd {
@@ -43,24 +41,33 @@
     display: block;
     font-weight: bolder;
     padding-top: 2rem;
+    @include mQ(1200px) {
+      font-size: 2rem;
+    }
   }
   .uks {
     font-family: Montserrat;
     font-size: 2rem;
     color: $blue;
     display: block;
+    @include mQ(1200px) {
+      font-size: 1.5rem;
+    }
     u {
       border-bottom: 1px solid $blue;
       text-decoration: none;
     }
   }
 }
+.jumbotron {
+  background-color: white;
+}
 
 #top2 {
-  width: 100%;
-  clear: both;
+   clear: both;
   .btn {
     text-align: center;
+    margin: 1rem;
   }
   .boxes_left {
     float: right;
@@ -70,7 +77,7 @@
     height: 120px;
     background-color: $grey;
     display: inline-block;
-    margin: 1.5rem;
+    margin: 1rem;
   }
   .left {
     width: 45%;
@@ -92,6 +99,9 @@
       width: 100px;
       display: block;
       margin: auto;
+      @include mQ(1200px) {
+        width: 50px;
+      }
     }
   }
   .right {
@@ -102,8 +112,12 @@
       padding-left: 1.5rem;
     }
     p {
+      clear: both;
       padding: 0 1.5rem;
       height: 100px;
+      @include mQ(1200px) {
+        font-size: .8rem;
+      }
     }
   }
 }
@@ -210,6 +224,7 @@ footer {
   height: 100vh;
   position: fixed;
   left: 0;
+  top: 0px;
   color: white;
   li {
     padding-left: 2rem;
@@ -226,8 +241,28 @@ footer {
     position: fixed;
     width: 300px;
   }
+  a {
+    color: white;
+    &:hover {
+      font-weight: bolder;
+    }
+  }
 }
 
 #content {
-  margin: 0 2rem 1rem 350px;
+  margin-left: 350px;
+  h2 {
+    font-weight: bold;
+    padding-top: 2rem;
+    color: $blue_dark;
+  }
+  img {
+    padding: 1rem;
+  }
+  .belt {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
 }

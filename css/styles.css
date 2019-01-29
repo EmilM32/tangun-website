@@ -46,39 +46,48 @@ ul {
     float: left;
     padding-left: 2rem; }
 
-#www {
-  width: 80%;
-  margin: 0 auto; }
+#top .texts {
+  float: left; }
 
-#top {
-  padding-top: 3rem; }
-  #top .texts {
-    float: left; }
-  #top .logo {
-    float: right; }
-    #top .logo img {
-      width: 250px; }
-  #top .tkd {
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    color: #0B47B2;
-    display: block;
-    font-weight: bolder;
-    padding-top: 2rem; }
-  #top .uks {
-    font-family: Montserrat;
-    font-size: 2rem;
-    color: #1F70FF;
-    display: block; }
-    #top .uks u {
-      border-bottom: 1px solid #1F70FF;
-      text-decoration: none; }
+#top .logo {
+  float: right; }
+  #top .logo img {
+    width: 250px; }
+    @media screen and (max-width: 1200px) {
+      #top .logo img {
+        width: 150px; } }
+
+#top .tkd {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  color: #0B47B2;
+  display: block;
+  font-weight: bolder;
+  padding-top: 2rem; }
+  @media screen and (max-width: 1200px) {
+    #top .tkd {
+      font-size: 2rem; } }
+
+#top .uks {
+  font-family: Montserrat;
+  font-size: 2rem;
+  color: #1F70FF;
+  display: block; }
+  @media screen and (max-width: 1200px) {
+    #top .uks {
+      font-size: 1.5rem; } }
+  #top .uks u {
+    border-bottom: 1px solid #1F70FF;
+    text-decoration: none; }
+
+.jumbotron {
+  background-color: white; }
 
 #top2 {
-  width: 100%;
   clear: both; }
   #top2 .btn {
-    text-align: center; }
+    text-align: center;
+    margin: 1rem; }
   #top2 .boxes_left {
     float: right; }
   #top2 .box {
@@ -86,7 +95,7 @@ ul {
     height: 120px;
     background-color: #A3A3A3;
     display: inline-block;
-    margin: 1.5rem; }
+    margin: 1rem; }
   #top2 .left {
     width: 45%;
     float: left; }
@@ -104,6 +113,9 @@ ul {
       width: 100px;
       display: block;
       margin: auto; }
+      @media screen and (max-width: 1200px) {
+        #top2 .middle img {
+          width: 50px; } }
   #top2 .right {
     width: 45%;
     float: left; }
@@ -111,8 +123,12 @@ ul {
       color: #B71C1C;
       padding-left: 1.5rem; }
     #top2 .right p {
+      clear: both;
       padding: 0 1.5rem;
       height: 100px; }
+      @media screen and (max-width: 1200px) {
+        #top2 .right p {
+          font-size: .8rem; } }
 
 #treningi h2 {
   color: #B71C1C;
@@ -200,6 +216,7 @@ footer {
   height: 100vh;
   position: fixed;
   left: 0;
+  top: 0px;
   color: white; }
   #left-nav li {
     padding-left: 2rem;
@@ -213,6 +230,21 @@ footer {
     bottom: 1rem;
     position: fixed;
     width: 300px; }
+  #left-nav a {
+    color: white; }
+    #left-nav a:hover {
+      font-weight: bolder; }
 
 #content {
-  margin: 0 2rem 1rem 350px; }
+  margin-left: 350px; }
+  #content h2 {
+    font-weight: bold;
+    padding-top: 2rem;
+    color: #0B47B2; }
+  #content img {
+    padding: 1rem; }
+  #content .belt {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    margin: 0 auto; }
