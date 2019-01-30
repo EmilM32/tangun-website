@@ -258,3 +258,17 @@ footer {
     height: 40px;
     border: 1px solid black;
     margin: 0 auto; }
+
+#content2 {
+  margin-left: 350px; }
+  #content2 h2 {
+    font-weight: bold;
+    padding-top: 2rem;
+    color: #B71C1C; }
+  #content2 .card {
+    text-align: center;
+    margin-top: 2rem; }
+  #content2 p {
+    margin-top: 2rem; }
+  #content2 .kumdo {
+    padding: 1rem 0 2rem 0; }
