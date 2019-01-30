@@ -20,7 +20,11 @@
     padding-left: 2rem;
   }
 }
-
+#fb {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
 #top {
   .texts {
     float: left;
@@ -79,6 +83,11 @@
     display: inline-block;
     margin: 1rem;
   }
+  .disp {
+    @include mQ(1200px) {
+      display: none;
+    }
+  }
   .left {
     width: 45%;
     float: left;
@@ -132,6 +141,8 @@
     width: 90%;
     margin: 0 auto;
     padding: 1rem 0;
+    text-align: center;
+    font-size: 110%;
   }
   .benefits {
     text-align: center;
